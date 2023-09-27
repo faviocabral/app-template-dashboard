@@ -2,6 +2,10 @@
   font-size:  14px;
 }
 
+body {
+    font-family: var(--font-family);
+}                                        
+
 .nav-sidebar .nav-item > .nav-link .right{
     top:30%;
 }
@@ -16,4 +20,11 @@ a.brand-link {
 #menu-action{
     font-size: 2rem;
     margin-right: 20px;
+}
+
+.p-datepicker table td{
+    padding:0;
+}
+.p-calendar * {
+    font-size: 14px;
 }
